@@ -1,0 +1,30 @@
+table th {
+background: #3399CC;
+}
+table td {
+padding:5px;
+}
+p.tooltip { position: relative; }
+p.tooltip a span { display: none; }
+p.tooltip a:hover span {
+z-index: 1;
+display: block;
+position: absolute;
+width: 200px;
+background: #FF6600;
+left: 100px;
+padding: 0 5px;
+}
+a.button {
+display: inline-block;
+width:60px;
+height: 30px;
+border:1px solid black;
+text-align: center;
+line-height: 30px;
+text-decoration: none;
+background: #FF6600;
+}
+textarea {
+resize:none;
+}
